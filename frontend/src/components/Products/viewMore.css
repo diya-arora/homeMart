@@ -1,0 +1,16 @@
+.outer-container {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.product-container {
+  flex-direction: row !important;
+}
+
+@media screen and (max-width: 900px) {
+  .product-image {
+    width: 100% !important;
+  }
+  .product-container {
+    flex-direction: column !important;
+  }
+}
