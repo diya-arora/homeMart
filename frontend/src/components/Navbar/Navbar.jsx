@@ -7,8 +7,8 @@ export default function Navbar(props) {
   const avatar = localStorage.getItem("avatar");
   const dataUrl = `data:image/jpeg;base64,${avatar}`;
 
-  // const baseUrl = "http://localhost:4500";
-  const baseUrl = "https://the-lucky-shop.onrender.com";
+const baseUrl = "http://localhost:4500";
+
 
   const handleLogout = () => {
     const token = localStorage.getItem("token");

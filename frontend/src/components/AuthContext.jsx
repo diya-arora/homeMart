@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
-// const baseUrl = "http://localhost:4500";
-const baseUrl = "https://the-lucky-shop.onrender.com"; // change this after deployment
+const baseUrl = "http://localhost:4500";
+
 
 const AuthContext = createContext();
 

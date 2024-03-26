@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import "./viewMore.css";
-// const baseUrl = "http://localhost:4500";
-const baseUrl = "https://the-lucky-shop.onrender.com";  // change this after deployment
+const baseUrl = "http://localhost:4500";
 
 export default function ViewMore(props) {
   const { id } = useParams();

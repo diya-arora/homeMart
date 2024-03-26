@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./cart.css";
-// const baseUrl = "http://localhost:4500";
-const baseUrl = "https://the-lucky-shop.onrender.com";
+const baseUrl = "http://localhost:4500";
 
 export default function Cart() {
   const [cart, setCart] = useState([]);

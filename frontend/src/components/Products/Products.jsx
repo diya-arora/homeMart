@@ -4,8 +4,7 @@ import "./Products.css";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import "boxicons";
-// const baseUrl = "http://localhost:4500";
-const baseUrl = "https://the-lucky-shop.onrender.com"; // change this after deployment
+const baseUrl = "http://localhost:4500";
 
 function Products() {
   const [products, setProducts] = useState([]);

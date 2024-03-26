@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../AuthContext";
-// const baseUrl = "http://localhost:4500";
-const baseUrl = "https://the-lucky-shop.onrender.com"; // change this after deployment
+const baseUrl = "http://localhost:4500";
 
 export default function Login() {
   const navigate = useNavigate();
